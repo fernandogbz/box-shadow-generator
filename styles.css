@@ -46,3 +46,6 @@ body {
   justify-content: space-between;
 }
 
+input[type="range"] {
+  width: 100%;
+}
