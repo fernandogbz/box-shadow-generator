@@ -56,3 +56,11 @@ input[type="range"] {
   gap: 5px;
   margin-top: 20px;
 }
+
+textarea {
+  resize: none;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
