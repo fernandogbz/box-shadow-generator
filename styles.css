@@ -23,7 +23,6 @@ body {
 
 .result {
   padding: 150px 0;
-  border: 1px solid black;
 }
 
 #element {
@@ -64,3 +63,9 @@ textarea {
   border-radius: 5px;
 }
 
+.code-wrapper button {
+  background-color: #0075ff;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+}
