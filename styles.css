@@ -23,4 +23,13 @@ body {
 
 .result {
   padding: 150px 0;
+  border: 1px solid black;
+}
+
+#element {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  background-color: #0075ff;
+  margin: auto;
 }
