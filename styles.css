@@ -33,3 +33,10 @@ body {
   background-color: #0075ff;
   margin: auto;
 }
+
+.sliders {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  gap: 20px 15px;
+}
+
