@@ -49,3 +49,10 @@ body {
 input[type="range"] {
   width: 100%;
 }
+
+.code-wrapper {
+  display: grid;
+  grid-template-columns: 10fr 2fr;
+  gap: 5px;
+  margin-top: 20px;
+}
