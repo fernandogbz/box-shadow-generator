@@ -20,3 +20,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 20px 40px rgba(2, 42, 83, 0.2);
 }
+
+.result {
+  padding: 150px 0;
+}
