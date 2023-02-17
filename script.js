@@ -32,5 +32,12 @@ function hexToRgba(shadowColor, shadowColorOpacity) {
   return `rgba(${r}, ${g}, ${b}, ${shadowColorOpacity})`
 }
 
+//Copy the generated code to clipboard
+function copyCode() {
+  code.select();
+  document.execCommand("copy");
+  alert("Code Copied To Clipboard");
+}
+
 // Calling the generateShadow() on every page load
 window.onload = generateShadow();
