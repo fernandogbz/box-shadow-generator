@@ -13,5 +13,12 @@ function generateShadow() {
   let shadowColorOpacity = document.getElementById("shadow-color-opacity").value;
   let shadowInset = document.getElementById("shadow-inset").checked;
 
-  console.log(shadowColor);
+}
+
+//Converting Hex value to rgba
+function hexToRgba(shadowColor, shadowColorOpacity) {
+  let r = parseInt(shadowColor.substr(1,2), 16);
+  let g = parseInt(shadowColor.substr(3,2), 16);
+  let b = parseInt(shadowColor.substr(5,2), 16);
+  return `rgba(${r}, ${g}, ${b}, ${shadowColorOpacity})`
 }
