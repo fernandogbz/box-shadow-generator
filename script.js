@@ -13,6 +13,14 @@ function generateShadow() {
   let shadowColorOpacity = document.getElementById("shadow-color-opacity").value;
   let shadowInset = document.getElementById("shadow-inset").checked;
 
+// Using ternary operator to check if inset checkbox is checked or not
+//If checked add the inset prefix
+//Else don't add inset prefix
+  let boxShadow = shadowInset 
+  ? `inset ${hShadow}px ${vShadow}px ${blurRadius}px ${spreadRadius}px ${hexToRgba(shadowColor, shadowColorOpacity)}` 
+  : 
+  `${hShadow}px ${vShadow}px ${blurRadius}px ${spreadRadius}px ${hexToRgba(shadowColor, shadowColorOpacity)}`
+  element.style.boxShadow = boxShadow;
 }
 
 //Converting Hex value to rgba
